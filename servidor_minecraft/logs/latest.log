@@ -1,0 +1,287 @@
+[10Aug2025 18:07:33.983] [main/INFO] [FabricLoader/GameProvider/]: Loading Minecraft 1.21 Arclight arclight-1.21-1.0.0-SNAPSHOT-b3349e9 with Fabric Loader 0.15.11
+mainEx[10Aug2025 18:07:34.261] [main/WARN] [FabricLoader/Resolution/]: Warnings were found!
+ - Mod 'Polymer (Common)' (polymer-common) 0.9.0+1.21-rc1 conflicts with any version of mod 'Arclight Mod' (arclight), which is present with the following versions: 1.0.0-SNAPSHOT+b3349e9!
+	 - While this won't prevent you from starting the game, the developer(s) of mod 'Polymer (Common)' (polymer-common) have found that this combination may cause issues. You should remove one of the mods or check for updates that resolve the issue.
+mainEx[10Aug2025 18:07:34.263] [main/INFO] [FabricLoader/]: Loading 64 mods:
+	- arclight 1.0.0-SNAPSHOT+b3349e9
+	- cinderscapes 5.0.3
+	   |-- biolith 3.0.5
+	   |-- cinderscapes-client 5.0.3
+	   |-- cinderscapes-common 5.0.3
+	   |-- cinderscapes-worldgen 5.0.3
+	   |-- cloth-config 15.0.127
+	   |    \-- cloth-basic-math 0.6.1
+	   |-- terraform-biome-remapper-api-v1 11.0.0
+	   |-- terraform-shapes-api-v1 11.0.0
+	   |-- terraform-surfaces-api-v1 11.0.0
+	   \-- terraform-wood-api-v1 11.0.0
+	- fabric-api 0.100.1+1.21
+	   |-- fabric-api-base 0.4.42+6573ed8c90
+	   |-- fabric-api-lookup-api-v1 1.6.65+b559734490
+	   |-- fabric-biome-api-v1 13.0.28+6fc22b9990
+	   |-- fabric-block-api-v1 1.0.22+0af3f5a790
+	   |-- fabric-block-view-api-v2 1.0.10+6573ed8c90
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a790
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c90
+	   |-- fabric-command-api-v1 1.2.48+f71b366f90
+	   |-- fabric-command-api-v2 2.2.27+6a6dfa1990
+	   |-- fabric-commands-v0 0.2.65+df3654b390
+	   |-- fabric-content-registries-v0 8.0.11+b559734490
+	   |-- fabric-convention-tags-v1 2.0.12+7f945d5b90
+	   |-- fabric-convention-tags-v2 2.2.1+d153f34490
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a790
+	   |-- fabric-data-attachment-api-v1 1.1.22+6a6dfa1990
+	   |-- fabric-data-generation-api-v1 20.2.6+16c4ae2590
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b9990
+	   |-- fabric-entity-events-v1 1.6.12+6fc22b9990
+	   |-- fabric-events-interaction-v0 0.7.10+e633f88390
+	   |-- fabric-game-rule-api-v1 1.0.52+6573ed8c90
+	   |-- fabric-item-api-v1 11.0.0+afdfc92190
+	   |-- fabric-item-group-api-v1 4.1.0+00ab0a6390
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a790
+	   |-- fabric-keybindings-v0 0.2.45+df3654b390
+	   |-- fabric-lifecycle-events-v1 2.3.9+98a7dbbb90
+	   |-- fabric-loot-api-v2 3.0.9+6573ed8c90
+	   |-- fabric-message-api-v1 6.0.13+6573ed8c90
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b90
+	   |-- fabric-networking-api-v1 4.1.0+686dcdce90
+	   |-- fabric-object-builder-api-v1 15.1.10+d132107690
+	   |-- fabric-particles-v1 4.0.2+6573ed8c90
+	   |-- fabric-recipe-api-v1 5.0.8+6573ed8c90
+	   |-- fabric-registry-sync-v0 5.0.21+b9828ba390
+	   |-- fabric-renderer-api-v1 3.2.16+fe474d6b90
+	   |-- fabric-renderer-indigo 1.6.3+cc9f121a90
+	   |-- fabric-renderer-registries-v1 3.2.66+df3654b390
+	   |-- fabric-rendering-data-attachment-v1 0.3.48+73761d2e90
+	   |-- fabric-rendering-fluids-v1 3.1.6+b559734490
+	   |-- fabric-rendering-v0 1.1.69+df3654b390
+	   |-- fabric-rendering-v1 5.0.3+d132107690
+	   |-- fabric-resource-conditions-api-v1 4.2.1+d153f34490
+	   |-- fabric-resource-loader-v0 1.1.3+b559734490
+	   |-- fabric-screen-api-v1 2.0.24+b559734490
+	   |-- fabric-screen-handler-api-v1 1.3.78+b559734490
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c90
+	   |-- fabric-transfer-api-v1 5.1.12+b559734490
+	   \-- fabric-transitive-access-wideners-v1 6.0.12+6573ed8c90
+	- fabricloader 0.15.11
+	   \-- mixinextras 0.3.5
+	- java 21
+	- mes 1.3.5-1.21-fabric
+	- minecraft 1.21
+	- mss 1.3.5-1.21-fabric
+	- polymer-bundled 0.9.0+1.21-rc1
+	   |-- polymer-autohost 0.9.0+1.21-rc1
+	   |    \-- io_netty_netty-codec-http 4.1.82
+	   |-- polymer-blocks 0.9.0+1.21-rc1
+	   |-- polymer-common 0.9.0+1.21-rc1
+	   |    \-- packet_tweaker 0.5.4+1.20.6
+	   |-- polymer-core 0.9.0+1.21-rc1
+	   |    |-- polymer-networking 0.9.0+1.21-rc1
+	   |    |    \-- polymer-common 0.9.0+1.21-rc1
+	   |    |         \-- packet_tweaker 0.5.4+1.20.6
+	   |    \-- polymer-registry-sync-manipulator 0.9.0+1.21-rc1
+	   |-- polymer-resource-pack 0.9.0+1.21-rc1
+	   |    \-- polymer-common 0.9.0+1.21-rc1
+	   |         \-- packet_tweaker 0.5.4+1.20.6
+	   \-- polymer-virtual-entity 0.9.0+1.21-rc1
+	        \-- polymer-common 0.9.0+1.21-rc1
+	             \-- packet_tweaker 0.5.4+1.20.6
+mainEx[10Aug2025 18:07:34.405] [main/INFO] [FabricLoader/Mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/workspaces/mods/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+mainEx[10Aug2025 18:07:34.481] [main/INFO] [FabricLoader/Mixin/]: Compatibility level set to JAVA_17
+mainEx[10Aug2025 18:07:34.587] [main/INFO] [FabricLoader/Mixin/]: Compatibility level set to JAVA_21
+mainEx[10Aug2025 18:07:34.964] [main/INFO] [Arclight/]: Using locale en_ and fallback locale en_us
+mainEx[10Aug2025 18:07:34.969] [main/INFO] [Arclight/]: 
+
+       ___           ___     __   /\
+      /   | ________/ (_)__ / /  / /
+     / /| |/ __/ __/ / / _ / _ \/__/
+    / ___ / / / /_/ / / / / // / /
+   /_/  |/_/  \__/_/_/\_ /_//_/ /
+                     /__/     \/
+
+    Version 诸王 (Feudal Kings) / arclight-1.21-1.0.0-SNAPSHOT-b3349e9
+    Build Date 2024-06-29 03:46:12
+
+mainEx[10Aug2025 18:07:36.490] [main/INFO] [FabricLoader/MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+mainEx[10Aug2025 18:07:46.058] [main/INFO] [biolith/]: Biolith for Fabric is initializing...
+mainEx[10Aug2025 18:07:46.405] [main/INFO] [Cinderscapes/]: Enabling Cinderscapes' Biolith worldgen module.
+mainEx[10Aug2025 18:07:46.790] [main/ERROR] [net.minecraft.class_156/]: Registry 'terraform:boat' was empty after loading
+mainEx[10Aug2025 18:07:46.912] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+mainEx[10Aug2025 18:07:49.041] [main/INFO] [net.minecraft.class_1863/]: Loaded 1380 recipes
+mainEx[10Aug2025 18:07:49.287] [main/INFO] [net.minecraft.class_163/]: Loaded 1489 advancements
+mainEx[10Aug2025 18:07:49.757] [main/INFO] [net.fabricmc.fabric.impl.biome.modification.BiomeModificationImpl/]: Applied 0 biome modifications to 0 of 68 new biomes in 5.487 ms
+mainEx[10Aug2025 18:07:49.784] [Server thread/INFO] [net.minecraft.class_3176/]: Starting minecraft server version 1.21
+Server threadEx[10Aug2025 18:07:49.784] [Server thread/INFO] [net.minecraft.class_3176/]: Loading properties
+Server threadEx[10Aug2025 18:07:49.786] [Server thread/INFO] [net.minecraft.class_3176/]: Default game type: SURVIVAL
+Server threadEx[10Aug2025 18:07:49.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+Server threadEx[10Aug2025 18:07:49.895] [Server thread/INFO] [net.minecraft.class_3176/]: Starting Minecraft server on *:25565
+Server threadEx[10Aug2025 18:07:50.001] [Server thread/INFO] [net.minecraft.class_3242/]: Using epoll channel type
+Server threadEx[10Aug2025 18:07:50.099] [Server thread/WARN] [net.minecraft.class_3176/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+Server threadEx[10Aug2025 18:07:50.099] [Server thread/WARN] [net.minecraft.class_3176/]: The server will make no attempt to authenticate usernames. Beware.
+Server threadEx[10Aug2025 18:07:50.099] [Server thread/WARN] [net.minecraft.class_3176/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+Server threadEx[10Aug2025 18:07:50.099] [Server thread/WARN] [net.minecraft.class_3176/]: To change this, set "online-mode" to "true" in the server.properties file.
+Server threadEx[10Aug2025 18:07:50.308] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.21-1.0.0-SNAPSHOT-b3349e9 (MC: 1.21) (Implementing API version 1.21-R0.1-SNAPSHOT)
+Server threadEx[10Aug2025 18:07:51.172] [Server thread/INFO] [Arclight/]: Registering for Bukkit ...
+Server threadEx[10Aug2025 18:07:51.240] [Server thread/INFO] [Arclight/]: Registered 112 new materials with 106 blocks and 6 items
+Server threadEx[10Aug2025 18:07:51.394] [Server thread/INFO] [Arclight/]: Registered 2 new entity types
+Server threadEx[10Aug2025 18:07:51.394] [Server thread/INFO] [Arclight/]: Registered 0 new villager professions
+Server threadEx[10Aug2025 18:07:51.396] [Server thread/INFO] [Arclight/]: Registered 4 new biomes
+Server threadEx[10Aug2025 18:07:51.418] [Server thread/INFO] [net.minecraft.class_2983/]: [STDOUT]: Server Ping Player Sample Count: 12
+Server threadEx[10Aug2025 18:07:51.421] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+Server threadEx[10Aug2025 18:07:51.422] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+Server threadEx[10Aug2025 18:07:51.535] [Server thread/INFO] [net.minecraft.class_3176/]: Preparing level "world"
+Server threadEx[10Aug2025 18:07:51.547] [Server thread/INFO] [Arclight/]: Registered 0 new dimensions
+Server threadEx[10Aug2025 18:07:52.039] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
+Server threadEx[10Aug2025 18:07:52.042] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+Server threadEx[10Aug2025 18:07:52.050] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+Server threadEx[10Aug2025 18:07:52.050] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+Server threadEx[10Aug2025 18:07:52.050] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+Server threadEx[10Aug2025 18:07:52.050] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:52.051] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+Server threadEx[10Aug2025 18:07:52.063] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+Server threadEx[10Aug2025 18:07:52.063] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+Server threadEx[10Aug2025 18:07:52.063] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+Server threadEx[10Aug2025 18:07:52.063] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+Server threadEx[10Aug2025 18:07:52.063] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+Server threadEx[10Aug2025 18:07:52.064] [Server thread/INFO] [Minecraft/]: View Distance: 10
+Server threadEx[10Aug2025 18:07:52.064] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+Server threadEx[10Aug2025 18:07:52.064] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+Server threadEx[10Aug2025 18:07:52.064] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+Server threadEx[10Aug2025 18:07:52.064] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+Server threadEx[10Aug2025 18:07:54.717] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+Server threadEx[10Aug2025 18:07:54.718] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+Server threadEx[10Aug2025 18:07:54.719] [Server thread/INFO] [Minecraft/]: View Distance: 10
+Server threadEx[10Aug2025 18:07:54.719] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+Server threadEx[10Aug2025 18:07:54.719] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+Server threadEx[10Aug2025 18:07:54.719] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+Server threadEx[10Aug2025 18:07:54.719] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+Server threadEx[10Aug2025 18:07:54.747] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
+Server threadEx[10Aug2025 18:07:54.747] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+Server threadEx[10Aug2025 18:07:54.747] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+Server threadEx[10Aug2025 18:07:54.747] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+Server threadEx[10Aug2025 18:07:54.747] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+Server threadEx[10Aug2025 18:07:54.747] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+Server threadEx[10Aug2025 18:07:54.747] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.747] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.747] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.747] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.747] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.747] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.747] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.747] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: View Distance: 10
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+Server threadEx[10Aug2025 18:07:54.748] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+Server threadEx[10Aug2025 18:07:54.774] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+Server threadEx[10Aug2025 18:07:54.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+Server threadEx[10Aug2025 18:07:55.375] [Worker-Main-2/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 0%
+Worker-Main-2Ex[10Aug2025 18:07:55.375] [Worker-Main-2/INFO] [net.minecraft.class_3951/]: Preparing spawn area: 0%
+Worker-Main-2Ex[10Aug2025 18:07:55.605] [Server thread/INFO] [net.minecraft.class_3951/]: Time elapsed: 826 ms
+Server threadEx[10Aug2025 18:07:55.606] [Server thread/INFO] [net.minecraft.class_3176/]: Done (4.072s)! For help, type "help"
+Server threadEx[10Aug2025 18:08:06.838] [User Authenticator #1/INFO] [net.minecraft.class_3248/]: UUID of player Sebas23m is 05baa57d-e0e2-3245-950d-ef017ffd725d
+User Authenticator #1Ex[10Aug2025 18:08:09.551] [Server thread/INFO] [net.minecraft.class_3324/]: Sebas23m[/127.118.127.232:51855] logged in with entity id 69 at (36.05422637076126, 111.0, -51.38132598064235)
+Server threadEx[10Aug2025 18:08:09.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sebas23m joined the game
+Server threadEx[10Aug2025 18:08:12.017] [Server thread/ERROR] [net.minecraft.class_6857/]: Failed to handle packet net.minecraft.class_2799@3f34e771, suppressing error
+Server threadEx java.lang.NullPointerException: Cannot invoke "org.bukkit.Location.getWorld()" because "location" is null
+	at net.minecraft.class_3324.handler$zdc000$arclight$postRespawn(PlayerListMixin.java:1388) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3324.method_14556(PlayerListMixin.java:530) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3244.method_12068(ServerPlayNetHandlerMixin.java:1672) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2799.method_12120(class_2799.java:32) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2799.method_11054(class_2799.java:8) ~[server-intermediary.jar:?]
+	at net.minecraft.class_2600.md012a47$arclight$lambda$ensureRunningOnSameThread$0$0(PacketThreadUtilMixin.java:538) ~[server-intermediary.jar:?]
+	at net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18859(BlockableEventLoopMixin.java:162) ~[server-intermediary.jar:?]
+	at net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_24306(MinecraftServerMixin.java:864) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18859(MinecraftServerMixin.java:173) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_16075(BlockableEventLoopMixin.java:136) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_20415(MinecraftServerMixin.java:846) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16075(MinecraftServerMixin.java:840) ~[server-intermediary.jar:?]
+	at net.minecraft.class_1255.method_18857(BlockableEventLoopMixin.java:145) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_18857(MinecraftServerMixin.java:810) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_16208(MinecraftServerMixin.java:815) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29741(MinecraftServerMixin.java:702) ~[server-intermediary.jar:?]
+	at net.minecraft.server.MinecraftServer.method_29739(MinecraftServerMixin.java:281) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+[10Aug2025 18:09:22.516] [User Authenticator #2/INFO] [net.minecraft.class_3248/]: UUID of player Cami23m is 4fa8fb20-2ad5-301e-b23d-5bbfe366640e
+User Authenticator #2Ex[10Aug2025 18:09:29.312] [Server thread/INFO] [net.minecraft.class_3324/]: Cami23m[/127.118.127.232:49997] logged in with entity id 335 at (1.5, 70.0, -2.5)
+Server threadEx[10Aug2025 18:09:29.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cami23m joined the game
+Server threadEx[10Aug2025 18:09:38.263] [Server thread/INFO] [net.minecraft.class_3244/]: Cami23m lost connection: Disconnected
+Server threadEx[10Aug2025 18:09:38.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cami23m left the game
+Server threadEx[10Aug2025 18:10:26.262] [Server thread/INFO] [net.minecraft.class_3244/]: Sebas23m lost connection: Disconnected
+Server threadEx[10Aug2025 18:10:26.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Sebas23m left the game
+Server threadEx[10Aug2025 18:10:47.721] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+Server threadEx[10Aug2025 18:10:47.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+Server threadEx[10Aug2025 18:10:47.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+Server threadEx[10Aug2025 18:10:47.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+Server threadEx[10Aug2025 18:10:47.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+Server threadEx[10Aug2025 18:10:47.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+Server threadEx[10Aug2025 18:10:47.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+Server threadEx
